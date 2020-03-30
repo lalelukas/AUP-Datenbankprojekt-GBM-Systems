@@ -1,0 +1,45 @@
+.container-fluid{
+   display: block;
+}
+
+h4 {
+   color: darkred;
+   font-weight: bold;
+}
+
+.fett {
+   display: inline-block;
+   width: 6em;
+   font-weight: bold;
+}
+
+p {
+   margin-bottom:0;
+   margin-top: 0;
+}
+
+p.sameLine {
+   display: inline;
+}
+
+label.labelID{
+   display: inline-block;
+   width: 6em;
+   font-weight: bold;
+}
+
+#submit-btn{
+   margin-top: 1em;
+   border-radius: 0.5em;
+   width: 13em;
+   height : 2em;
+   background-color: green;
+   color: white;
+}
+
+#submit-btn:hover{
+   border-radius: 8px;
+   background-color: darkgreen;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+

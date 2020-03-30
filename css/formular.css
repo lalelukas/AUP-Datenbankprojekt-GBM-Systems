@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+    background: #f2f2f2;
+  }
+  body,
+  input,
+  select,
+  textarea {
+    font-family: sans-serif;
+    font-size: 1.5em;
+  }
+  p {
+    margin: 1.6em 0;
+  }
+  form {
+    padding: 10px;
+  }
+  fieldset {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    margin: 10px;
+    appearance: none;
+  }
+  legend {
+    padding: 0 10px;
+    color: #999;
+  }
+  label {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: .5em;
+    color: #999;
+  }
+  select:invalid {
+    color: gray;
+  }
+  option[value=""][disabled] {
+    display: none;
+  }
+  option {
+    color: black;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-size: 1em;
+    appearance: none;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #999;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  #formular {
+    margin: auto;
+    max-width: 480px;
+  }

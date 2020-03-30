@@ -1,0 +1,2 @@
+This class is created in a good intention to fetch google books api without using any google auth credentials
+Hence, its accuracy is 70%. Well, it also has limitations based on the google,as it can fetch only 40 at a time.
